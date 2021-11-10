@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-color: pink;
+        }
+        .box>img {
+            width: 234px;
+        }
+        .box {
+            position: relative;
+            width: 234px;
+            height: 270px;
+            margin: 100px auto;
+            background-color: #fff;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .box h3 {
+            margin: 20px;
+            font-size: 16px;
+        }
+        .box p {
+            margin-left: 24px;
+            font-size: 12px;
+        }
+        .box p span {
+            color: #f77321;
+        }
+        .hot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: inline-block;
+            width: 30px;
+            height: 20px;
+            padding: 5px;
+            color: red;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">
+        <div class="box">
+            <img src="./img/pic.png" alt="">
+            <span class="hot">hot</span>
+            <h3>据说点赞、投币、转发的小伙伴都学</h3>
+            <p><span>高级</span>·1125人在学习</p>
+        </div>
+    </a>
+</body>
+</html>
