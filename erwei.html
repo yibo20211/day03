@@ -41,16 +41,30 @@
             position: relative;
         }
         .nav .title .app .code {
+            display: none;
             position: absolute;
             left: 50%;
             top: 40px;
             transform: translateX(-50%);
             border: 1px solid #ccc;
         }
+        .nav .app:hover .code{
+            display: block;
+        }
+        .box {
+            width: 0px;
+            height: 0px;
+            /* background-color: pink; */
+            border-top: 100px solid rgba(0, 0, 0, 0);
+            border-bottom: 200px solid yellow;
+            border-left: 100px solid rgba(0, 0, 0, 0);
+            border-right: 100px solid rgba(0, 0, 0, 0);
+        }
 
     </style>
 </head>
 <body>
+    <div class="box"></div>
     <div class="nav">
         <ul>
             <li class="title"><a href="#">我要投资</a></li>
